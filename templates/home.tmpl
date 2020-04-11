@@ -1,0 +1,15 @@
+{{template "base/head" .}}
+<div class="home">
+	<div class="ui stackable middle very relaxed page grid">
+		<div class="sixteen wide center aligned centered column">
+			<div class="logo">
+				<img src="{{AppSubURL}}/img/gogs-hero.png" />
+			</div>
+			<div class="hero">
+				<h2>{{.i18n.Tr "app_desc"}}</h2>
+				<h2> Official <a href="https://github.com/gogs/gogs">GitHub</a></h2>
+			</div>
+		</div>
+	</div>
+</div>
+{{template "base/footer" .}}
